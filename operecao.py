@@ -10,9 +10,9 @@ def multiplicar(a, b):
 def dividir(a, b):
     if b != 0:
         return a / b
-    else:
-        return "Divisão por zero não é permitida"
-        def main():
+else:
+    return "Divisão por zero não é permitida"
+def main():
     print("Escolha a operação:")
     print("1. Adição")
     print("2. Subtração")
@@ -34,3 +34,5 @@ def dividir(a, b):
         print(f"{num1} / {num2} = {dividir(num1, num2)}")
     else:
         print("Escolha inválida")
+ if __name__ == "__main__":
+    main()
