@@ -1,3 +1,5 @@
+# calculadora.py
+
 def adicionar(a, b):
     return a + b
 
@@ -10,8 +12,9 @@ def multiplicar(a, b):
 def dividir(a, b):
     if b != 0:
         return a / b
-else:
-    return "Divisão por zero não é permitida"
+    else:
+        return "Divisão por zero não é permitida"
+
 def main():
     print("Escolha a operação:")
     print("1. Adição")
@@ -34,5 +37,7 @@ def main():
         print(f"{num1} / {num2} = {dividir(num1, num2)}")
     else:
         print("Escolha inválida")
- if __name__ == "__main__":
+
+if __name__ == "__main__":
     main()
+
